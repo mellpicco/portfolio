@@ -38,30 +38,59 @@ h4 {
   font-weight: 400;
 }
 
+.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block*/
+  background-color: rgba(196, 22, 28, 1.0);
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* on mobile: hover action is visible when selecting the button */
+.button:active{
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  color: #ffffff;
+  text-decoration: none;
+}
 
 
 /* Link Styling */
 a {
-  color: rgba(196,22,28,1.0);
-  text-decoration: none; /* No underlining */
+  color: rgba(196, 22, 28, 1.0);
+  text-decoration: none;
+  /* No underlining */
 }
 
-
-a:visited { /* visited link */
-  color: rgba(196,22,28,0.5);;
+a:visited {
+  /* visited link */
+  color: blue;
 }
-
 
 a:hover,
 a:focus {
-  color: rgba(196,22,28,0.5);
-  text-decoration: underline;/* underlines on hover for accessibility */
+  color: rgba(196, 22, 28, 0.5);
+  text-decoration: underline;
+  /* underlines on hover for accessibility */
 }
 
-a:active { /* selected link */
-  color: rgba(196,22,28,1.0);
+a:active {
+  /* selected link */
+  color: rgba(196, 22, 28, 1.0);
 }
-
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
