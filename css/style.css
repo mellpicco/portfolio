@@ -10,6 +10,10 @@ body {
   color: #4a4a4a;
 }
 
+img {
+  width: 100%;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
