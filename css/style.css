@@ -38,6 +38,34 @@ h4 {
   font-weight: 400;
 }
 
+
+
+/* Link Styling */
+a {
+  color: rgba(196, 22, 28, 1.0);
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:visited {
+  /* visited link */
+  color: blue;
+}
+
+a:hover,
+a:focus {
+  color: rgba(196, 22, 28, 0.5);
+  text-decoration: underline;
+  /* underlines on hover for accessibility */
+}
+
+a:active {
+  /* selected link */
+  color: rgba(196, 22, 28, 1.0);
+}
+
+
+/* "View Case Study" Buttons Styling */
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block*/
@@ -67,29 +95,23 @@ h4 {
   text-decoration: none;
 }
 
-
-/* Link Styling */
-a {
+/* "E-mail me" Buttons Styling */
+.button.contact {
+  background-color: transparent;
   color: rgba(196, 22, 28, 1.0);
-  text-decoration: none;
-  /* No underlining */
+  text-transform: uppercase;
+  border: 2px solid rgba(196, 22, 28, 1.0);
 }
 
-a:visited {
-  /* visited link */
-  color: blue;
+.button.contact:hover {
+  background-color: rgba(196, 22, 28, 1.0);
+  color: #ffffff;
 }
 
-a:hover,
-a:focus {
-  color: rgba(196, 22, 28, 0.5);
-  text-decoration: underline;
-  /* underlines on hover for accessibility */
-}
-
-a:active {
-  /* selected link */
-  color: rgba(196, 22, 28, 1.0);
+/* on mobile: hover action is visible when selecting the button */
+.button.contact:active{
+  background-color: rgba(196, 22, 28, 1.0);
+  color: #ffffff;
 }
 
 /* colors used
