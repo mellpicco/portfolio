@@ -1,3 +1,8 @@
+/* setting the default width of an element to include the padding and the border via the box-sizing property and border-box value*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
