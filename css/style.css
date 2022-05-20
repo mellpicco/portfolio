@@ -17,6 +17,7 @@ header {
   border-bottom: 3px solid #4a4a4a;
 }
 
+
 img {
   width: 100%;
 }
@@ -142,7 +143,9 @@ a:active {
 }
 
 
+
 #hero {/* id selector */
+
 }
 
 #work {/* id selector */
