@@ -3,6 +3,17 @@
   box-sizing: border-box;
 }
 
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+/* adds rows to div to make 2 column section */
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -16,12 +27,8 @@ body {
 }
 
 header {
-  background-color: #ff44c4;
-  padding: 10px 5px 15px 5px; /* Adds 10px top, 5px right, 15px bottom, 5px left */
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
+  background-color: #333333;
 }
-
 
 img {
   width: 100%;
@@ -51,8 +58,6 @@ h4 {
   font-weight: 400;
 }
 
-
-
 /* Link Styling */
 a {
   color: rgba(196, 22, 28, 1.0);
@@ -77,7 +82,6 @@ a:active {
   color: rgba(196, 22, 28, 1.0);
 }
 
-
 /* "View Case Study" Buttons Styling */
 .button {
   display: inline-block;
@@ -101,7 +105,7 @@ a:active {
 }
 
 /* on mobile: hover action is visible when selecting the button */
-.button:active{
+.button:active {
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
   color: #ffffff;
@@ -122,11 +126,10 @@ a:active {
 }
 
 /* on mobile: hover action is visible when selecting the button */
-.button.contact:active{
+.button.contact:active {
   background-color: rgba(196, 22, 28, 1.0);
   color: #ffffff;
 }
-
 
 /* "Resume" Buttons Styling */
 .button.resume {
@@ -142,26 +145,23 @@ a:active {
 }
 
 /* on mobile: hover action is visible when selecting the button */
-.button.resume:active{
+.button.resume:active {
   background-color: rgba(196, 22, 28, 1.0);
   color: #ffffff;
 }
 
-
-
-#hero {/* id selector */
-
+#hero {
+  /* id selector */  
 }
 
-#work {/* id selector */
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
 
-#contact {/* id selector */
+#contact {
+  /* id selector */
   background-color: #999999;
   color: black;
 }
-
-
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
