@@ -150,8 +150,9 @@ a:active {
   color: #ffffff;
 }
 
-#hero {
-  /* id selector */  
+
+#hero h1 {
+  text-align: center; /* Centers text */
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
