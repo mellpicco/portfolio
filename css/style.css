@@ -37,10 +37,7 @@ header {
   position: fixed
 }
 
-/* adds 265px padding (same height as header) to allow for position fixed */
-main {
-  padding-top: 265px;
-}
+
 
 
 
@@ -168,28 +165,6 @@ a:active {
 
 
 
-#hero {
-  background-color: #f2f2f2;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
-}
-
-#hero h1 {
-  text-align: center; /* Centers text */
-}
-
-
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
-}
-
-#contact {
-  /* id selector */
-  background-color: #999999;
-  color: black;
-}
-
-
 .logo {
   max-width: 200px;
 }
@@ -239,7 +214,37 @@ nav > ul > li > a:active {
   color: #c4161c;
 }
 
+/* adds 265px padding (same height as header) to allow for position fixed */
+main {
+  padding-top: 265px;
+}
 
+
+#hero {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+}
+
+#contact {
+  /* id selector */
+  background-color: #000000;
+  color: white;
+}
+
+#contact h1 {
+  text-transform: uppercase;
+
+}
 
 
 
@@ -248,5 +253,5 @@ primary color (red):#c4161c web color#cc0000
 rgba(196,22,28,0.0)
 
 secondary color (dark gray): #333333
-light gray:#999999
+light gray:#f2f2f2
  */
