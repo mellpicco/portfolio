@@ -14,6 +14,7 @@
   /* 25px top and bottom, 0 left and right */
 }
 
+
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -27,8 +28,21 @@ body {
 }
 
 header {
-  background-color: #333333;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
+  box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
+  position: fixed
 }
+
+/* adds 265px padding (same height as header) to allow for position fixed */
+main {
+  padding-top: 265px;
+}
+
+
 
 img {
   width: 100%;
@@ -67,7 +81,7 @@ a {
 
 a:visited {
   /* visited link */
-  color: blue;
+  color: #333333;
 }
 
 a:hover,
@@ -151,9 +165,20 @@ a:active {
 }
 
 
+
+
+
+#hero {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
 #hero h1 {
   text-align: center; /* Centers text */
 }
+
 
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
@@ -163,6 +188,60 @@ a:active {
   background-color: #999999;
   color: black;
 }
+
+
+.logo {
+  max-width: 200px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+nav > ul > li > a:visted {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #c4161c;
+}
+
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #c4161c;
+}
+
+
+
+
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
