@@ -235,16 +235,18 @@ main {
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
 
+
 #contact {
-  /* id selector */
   background-color: #000000;
   color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
-#contact h1 {
+#contact h2 {
   text-transform: uppercase;
-
 }
+
 
 
 
