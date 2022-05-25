@@ -14,7 +14,6 @@
   /* 25px top and bottom, 0 left and right */
 }
 
-
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -36,10 +35,6 @@ header {
   box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
   position: fixed
 }
-
-
-
-
 
 img {
   width: 100%;
@@ -129,6 +124,7 @@ a:active {
   color: rgba(196, 22, 28, 1.0);
   text-transform: uppercase;
   border: 2px solid rgba(196, 22, 28, 1.0);
+  padding: 20px 20px;
 }
 
 .button.contact:hover {
@@ -141,6 +137,11 @@ a:active {
   background-color: rgba(196, 22, 28, 1.0);
   color: #ffffff;
 }
+
+#emailbutton {
+  padding: 20px 20px;
+}
+
 
 /* "Resume" Buttons Styling */
 .button.resume {
@@ -161,10 +162,6 @@ a:active {
   color: #ffffff;
 }
 
-
-
-
-
 .logo {
   max-width: 200px;
 }
@@ -174,40 +171,40 @@ nav {
   width: 100%;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
 }
 
-nav > ul > li > a:visted {
+nav>ul>li>a:visted {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #c4161c;
 }
 
-nav > ul > li > a:active {
+nav>ul>li>a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -219,7 +216,6 @@ main {
   padding-top: 265px;
 }
 
-
 #hero {
   background-color: #f2f2f2;
   padding: 20px 0;
@@ -228,27 +224,50 @@ main {
 }
 
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
-
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+#hero h2 {
+  text-align: center;
 }
 
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
 
 #contact {
   background-color: #000000;
   color: white;
   padding: 20px 0;
   text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+
 }
 
 #contact h2 {
   text-transform: uppercase;
 }
 
+#social {
+  font-size: 30px;
+  /* font size effects icon size */
+  padding: 20px 20px;
+  /* padding above above and under icons */
+  text-align: center;
+}
 
+/* padding inbetween icons */
+a > i{
+  padding-right:10px;
+  padding-left:10px;
+}
 
+#copyright {
+  color: #333333
+}
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
