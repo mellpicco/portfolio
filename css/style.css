@@ -163,7 +163,7 @@ a:active {
 }
 
 .logo {
-  max-width: 200px;
+  width: 200px;
 }
 
 nav {
@@ -301,6 +301,11 @@ a>i {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
+  .logo {
+    width: 90px;
+  }
+
   main {
     padding-top: 220px;
   }
@@ -331,6 +336,14 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .logo {
+    width: 150px;
+  }
+
 }
 
 /* ==============================
