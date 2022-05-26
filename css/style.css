@@ -27,6 +27,7 @@ body {
 }
 
 header {
+  width: 100%;
   background-color: #f2f2f2;
   text-align: center;
   padding: 10px 0;
@@ -142,7 +143,6 @@ a:active {
   padding: 20px 20px;
 }
 
-
 /* "Resume" Buttons Styling */
 .button.resume {
   background-color: transparent;
@@ -220,12 +220,19 @@ main {
   background-color: #f2f2f2;
   padding: 20px 0;
   display: inline-block;
+  text-align: center;
   width: 100%;
 }
 
 #hero h1 {
   text-align: center;
   /* Centers text */
+}
+
+#hero span {
+  display: block;
+  font-size: 2.25em;
+  font-weight: 700;
 }
 
 #hero h2 {
@@ -244,7 +251,6 @@ main {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-
 }
 
 #contact h2 {
@@ -260,14 +266,95 @@ main {
 }
 
 /* padding inbetween icons */
-a > i{
-  padding-right:10px;
-  padding-left:10px;
+a>i {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #copyright {
   color: #333333
 }
+
+/* About Page Styles */
+#about-page h1 {
+  text-align: center;
+}
+
+#about-page h2 {
+  text-align: center;
+}
+
+#about-page h3 {
+  margin-top: 0;
+}
+
+/* Work Page (Index) Styles */
+#work-page h3 {
+  margin-top: 0;
+}
+
+#work-page h2 {
+  text-align: center;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  main {
+    padding-top: 220px;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+    width: 100%;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  #hero {
+    text-align: center;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {}
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
