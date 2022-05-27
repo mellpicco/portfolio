@@ -281,6 +281,11 @@ a>i {
 }
 
 /* About Page Styles */
+
+#about-page main {
+  padding-top: 265px;
+}
+
 #about-page h1 {
   text-align: center;
 }
@@ -395,6 +400,10 @@ Medium devices (640px and larger)
     margin-right: auto;
   }
 
+  #about-page main {
+    padding-top: 121px;
+  }
+
 }
 
 /*
@@ -434,7 +443,7 @@ Large devices (1024px or larger)
     width: 40%;
   }
 
-  
+
 
 }
 
@@ -473,6 +482,10 @@ X-large devices (1440px or larger)
     width: 40%;
   }
 
+  #about-page main {
+    padding-top: 131px;
+  }
+
 }
 
 
@@ -506,6 +519,10 @@ Extra-large devices (1920px or larger)
 
   .col-lg-5 {
     width: 40%;
+  }
+
+  #about-page main {
+    padding-top: 177px;
   }
 
 }
