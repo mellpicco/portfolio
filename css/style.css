@@ -307,7 +307,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 220px;
+    padding-top: 121px;
   }
 
   header {
@@ -319,7 +319,7 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 15px;
   }
 
   .col-md-6 {
@@ -350,24 +350,49 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
   body {
     font-size: 18px;
+  }
+
+  main {
+    padding-top: 122px;
   }
 
   #hero {
     text-align: center;
   }
+
+  .col-lg-7 {
+    width: 60%;
+    float: left;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+
 }
+
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+
+
+}
+
+
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+
+
+}
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
