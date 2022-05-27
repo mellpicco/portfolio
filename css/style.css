@@ -373,6 +373,7 @@ Medium devices (640px and larger)
     margin-top: 15px;
   }
 
+
   .col-md-6 {
     width: 50%;
   }
@@ -396,6 +397,7 @@ Medium devices (640px and larger)
 
 }
 
+/*
 @media only screen and (max-width: 450px) {
 
   .logo {
@@ -403,11 +405,13 @@ Medium devices (640px and larger)
   }
 
 }
+*/
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
 
   body {
     font-size: 18px;
@@ -430,9 +434,9 @@ Large devices (1024px or larger)
     width: 40%;
   }
 
+  
+
 }
-
-
 
 
 
@@ -444,8 +448,33 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 
+  .logo {
+    width: 100px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    padding-top: 131px;
+  }
+
+  #hero {
+    text-align: center;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+    float: left;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
 
 }
+
 
 
 
@@ -454,8 +483,33 @@ Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
 
+  .logo {
+    width: 150px;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+  main {
+    padding-top: 177px;
+  }
+
+  #hero {
+    text-align: center;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+    float: left;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
 
 }
+
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
