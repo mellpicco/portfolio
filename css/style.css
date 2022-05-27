@@ -101,7 +101,8 @@ a:active {
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;/* animation-transition opacity */
+  transition-property: opacity;
 }
 
 .button:hover {
@@ -126,6 +127,7 @@ a:active {
   text-transform: uppercase;
   border: 2px solid rgba(196, 22, 28, 1.0);
   padding: 20px 20px;
+  transition: 0.4s opacity, 0.5s background-color /* background color transition */
 }
 
 .button.contact:hover {
@@ -149,6 +151,7 @@ a:active {
   color: rgba(196, 22, 28, 1.0);
   text-transform: uppercase;
   border: 2px solid rgba(196, 22, 28, 1.0);
+  transition: 0.4s opacity, 0.5s background-color /* background color transition */
 }
 
 .button.resume:hover {
@@ -161,6 +164,8 @@ a:active {
   background-color: rgba(196, 22, 28, 1.0);
   color: #ffffff;
 }
+
+
 
 .logo {
   width: 200px;
