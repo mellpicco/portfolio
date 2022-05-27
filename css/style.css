@@ -211,9 +211,9 @@ nav>ul>li>a:active {
   color: #c4161c;
 }
 
-/* adds 265px padding (same height as header) to allow for position fixed */
+/* adds padding (same height as header) to allow for position fixed */
 main {
-  padding-top: 265px;
+  padding-top: 220px;
 }
 
 #hero {
@@ -336,6 +336,13 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -371,6 +378,7 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 40%;
   }
+
 
 
 }
