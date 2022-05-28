@@ -308,6 +308,37 @@ a>i {
 }
 
 
+/* Ellicott City Unity Illustration Animation */
+/* sets svg width to 100% so that it is responsive */
+.ec-unity-illustration {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+
+@keyframes color-change {
+  from {fill: #ffffff;}
+  to {fill: #a30c33;}
+}
+
+.ec {
+  animation-duration: 8s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.unity {
+  animation-duration: 8s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+
+
 /* Berlin Illustration Animation */
 /* sets svg width to 100% so that it is responsive */
 .berlin-illustration {
