@@ -1,19 +1,25 @@
 
 
-var escapedText1 = "He said: \"Yes!\", that's for sure";
-var text2 = "Hello, spaces are also OK!";
-var numberInteger = 456;
-var emptyVariable = null;
+
 
 
 
 
 console.log("Hello world")
+
+
+/* multiline comment
+
+var escapedText1 = "He said: \"Yes!\", that's for sure";
+var text2 = "Hello, spaces are also OK!";
+var numberInteger = 456;
+var emptyVariable = null;
+
 console.log(escapedText1,text2, numberInteger)
 console.log(thisVariableDoesntExist); // Will output undefined
 console.log(emptyVariable); // Outputs Null
 
-/* multiline comment
+
 
 Examples of Strings
 var text1 = "Hello";
