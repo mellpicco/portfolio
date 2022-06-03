@@ -4,11 +4,16 @@
 
 
 
+var myArray = [1,2];
+myArray.push(3);
+myArray.push("Test");
+console.log(myArray); // Will output: [1,2,3, "Test"]
 
-console.log("Hello world")
+
 
 
 /* multiline comment
+console.log("Hello world")
 
 var escapedText1 = "He said: \"Yes!\", that's for sure";
 var text2 = "Hello, spaces are also OK!";
