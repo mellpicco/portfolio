@@ -3,11 +3,14 @@
 
 
 
-
-var myArray = [1,2];
-myArray.push(3);
-myArray.push("Test");
-console.log(myArray); // Will output: [1,2,3, "Test"]
+function menuToggle() {
+  var x = document.getElementById('myNavtoggle');
+  if (x.className === 'navtoggle') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'navtoggle';
+  }
+}
 
 
 
@@ -62,6 +65,11 @@ var person = {
   age: 39
 };
 
+
+var myArray = [1,2];
+myArray.push(3);
+myArray.push("Test");
+console.log(myArray); // Will output: [1,2,3, "Test"]
 
 */
 

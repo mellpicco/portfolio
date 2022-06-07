@@ -29,8 +29,7 @@ body {
 header {
   width: 100%;
   background-color: #f2f2f2;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
   -moz-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
   box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
@@ -168,21 +167,24 @@ a:active {
 
 
 .logo {
-  width: 200px;
+  max-width: 100px;
 }
 
+/*
 nav {
-  display: inline-block;
+  display: inline-block
   width: 100%;
 }
+*/
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav>ul>li {
-  display: inline-block;
+/*  display: inline-block;*/
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
@@ -216,9 +218,47 @@ nav>ul>li>a:active {
   color: #c4161c;
 }
 
+
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(70,70,70,0.5);
+}
+
+
+
+
+
 /* adds padding (same height as header) to allow for position fixed */
 main {
-  padding-top: 220px;
+  padding-top: 111px;
 }
 
 #hero {
@@ -283,7 +323,7 @@ a>i {
 /* About Page Styles */
 
 #about-page main {
-  padding-top: 265px;
+  padding-top: 111px;
 }
 
 #about-page h1 {
@@ -416,6 +456,28 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 15px;
   }
+
+nav>ul {
+  margin: 1em 0;
+}
+
+  nav>ul>li {
+  display: inline-block;
+}
+
+
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+  padding: 0 0 10px;
+}
+
+
+
 
 
   .col-md-6 {
