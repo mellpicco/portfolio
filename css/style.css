@@ -172,6 +172,8 @@ a:active {
   max-width: 100px;
 }
 
+
+
 /*
 nav {
   display: inline-block
@@ -340,6 +342,13 @@ a>i {
   margin-top: 0;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* Work Page (Index) Styles */
 #work-page h3 {
   margin-top: 0;
@@ -348,6 +357,7 @@ a>i {
 #work-page h2 {
   text-align: center;
 }
+
 
 
 /* Ellicott City Unity Illustration Animation */
@@ -507,7 +517,18 @@ nav>ul {
     padding-top: 121px;
   }
 
+/* centers about photo*/
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+
 }
+
+
 
 /*
 @media only screen and (max-width: 450px) {
