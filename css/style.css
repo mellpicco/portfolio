@@ -496,6 +496,15 @@ nav>ul {
     width: 50%;
   }
 
+/* 3 columns for Skills section on About page */
+  .col-md-7 {
+    width: 33%;
+  }
+
+
+
+
+
   [class*="col-"] {
     float: left;
     padding: 10px 10px;
@@ -506,6 +515,7 @@ nav>ul {
     clear: both;
     display: table;
   }
+
 
   .container {
     max-width: 1200px;
