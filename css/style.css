@@ -71,10 +71,12 @@ a {
   /* No underlining */
 }
 
+  /* visited link
 a:visited {
-  /* visited link */
+
   color: #333333;
 }
+*/
 
 a:hover,
 a:focus {
