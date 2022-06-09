@@ -201,7 +201,7 @@ nav>ul>li>a {
   color: #000000;
 }
 
-/*
+
 nav>ul>li>a:visted {
   padding: 0 15px;
   text-transform: uppercase;
@@ -209,7 +209,7 @@ nav>ul>li>a:visted {
   color: #000000;
 }
 
-*/
+
 
 nav>ul>li>a:hover {
   padding: 0 15px;
