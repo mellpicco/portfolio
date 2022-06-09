@@ -671,7 +671,7 @@ html {
 
 
 
-/* Nav CSS animation Test
+/* Nav CSS animation Test*/
 
 div.container a
 {
@@ -716,8 +716,6 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     opacity: 1;
     width: 100%;
 }
-
-*/
 
 
 
