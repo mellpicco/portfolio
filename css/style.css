@@ -493,8 +493,6 @@ nav>ul {
 
 
 
-
-
   .col-md-6 {
     width: 50%;
   }
@@ -506,11 +504,9 @@ nav>ul {
 
 
 
-
-
   [class*="col-"] {
     float: left;
-    padding: 10px 10px;
+    padding: 20px 20px;
   }
 
   .row::after {
@@ -642,7 +638,7 @@ Extra-large devices (1920px or larger)
   }
 
   main {
-    padding-top: 177px;
+    padding-top: 132px;
   }
 
   #hero {
@@ -675,7 +671,7 @@ html {
 
 
 
-/* Nav CSS animation Test 
+/* Nav CSS animation Test
 
 div.container a
 {
