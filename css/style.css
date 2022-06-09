@@ -201,12 +201,15 @@ nav>ul>li>a {
   color: #000000;
 }
 
+/*
 nav>ul>li>a:visted {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
 }
+
+*/
 
 nav>ul>li>a:hover {
   padding: 0 15px;
@@ -659,6 +662,12 @@ Extra-large devices (1920px or larger)
     padding-top: 177px;
   }
 
+}
+
+
+
+html {
+  scroll-behavior: smooth;
 }
 
 
