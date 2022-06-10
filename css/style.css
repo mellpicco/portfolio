@@ -169,6 +169,9 @@ a:active {
   text-decoration: none;
 }
 
+.button.resume:visited {
+  text-decoration: none;
+}
 
 
 .logo {
