@@ -352,6 +352,12 @@ a>i {
   width: 50%;
 }
 
+
+
+
+
+
+
 /* Work Page (Index) Styles */
 #work-page h3 {
   margin-top: 0;
@@ -541,6 +547,11 @@ nav>ul {
   }
 
 
+  #columnthree {
+    padding-top: 55px;
+  }
+
+
 }
 
 /* Nav CSS animation*/
@@ -626,7 +637,9 @@ Large devices (1024px or larger)
     width: 40%;
   }
 
-
+  #columnthree {
+    padding-top: 66px;
+  }
 
 }
 
