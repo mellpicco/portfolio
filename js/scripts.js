@@ -8,7 +8,6 @@ function menuToggle() {
 }
 
 
-
 // Smooth scrolling for cross browser compatibility//
 
 $(document).ready(function() {
