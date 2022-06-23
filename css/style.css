@@ -1,4 +1,4 @@
-/* setting the default width of an element to include the padding and the border via the box-sizing property and border-box value*/
+/* setting the default width of an element to include the padding and the border via the box-sizing property and border-box value */
 * {
   box-sizing: border-box;
 }
@@ -99,7 +99,7 @@ a:active {
 .button {
   display: inline-block;
 
-  /* since the <a> tag is inline by default, we need to change this to inline-block*/
+  /* since the <a> tag is inline by default, we need to change this to inline-block */
   background-color: rgba(196, 22, 28, 1.0);
   color: #fff;
 
@@ -128,6 +128,7 @@ a:active {
 /* on mobile: hover action is visible when selecting the button */
 .button:active {
   opacity: 0.8;
+
   /* Reduces the opacity of the button to 80% */
   color: #fff;
   text-decoration: none;
@@ -556,7 +557,7 @@ Medium devices (640px and larger)
   }
 }
 
-/* Nav CSS animation*/
+/* Nav CSS animation */
 nav.container ul>li>a {
   color: #000;
   text-decoration: none;
