@@ -11,6 +11,7 @@
 /* adds rows to div to make 2 column section */
 .row {
   margin: 25px 0;
+
   /* 25px top and bottom, 0 left and right */
 }
 
@@ -18,10 +19,13 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+
   /* Sets the font size to 16px */
   font-weight: 300;
+
   /* Sets the font weight to 300 */
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
@@ -68,6 +72,7 @@ h4 {
 a {
   color: rgba(196, 22, 28, 1.0);
   text-decoration: none;
+
   /* No underlining */
 }
 
@@ -81,6 +86,7 @@ a:hover,
 a:focus {
   color: rgba(196, 22, 28, 0.5);
   text-decoration: underline;
+
   /* underlines on hover for accessibility */
 }
 
@@ -92,16 +98,20 @@ a:active {
 /* "View Case Study" Buttons Styling */
 .button {
   display: inline-block;
+
   /* since the <a> tag is inline by default, we need to change this to inline-block*/
   background-color: rgba(196, 22, 28, 1.0);
   color: #ffffff;
+
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
+
   /* width of the border, type, color */
   transition-duration: 0.2s;
+
   /* animation-transition opacity */
   transition-property: opacity;
 }
@@ -109,6 +119,7 @@ a:active {
 
 .button:hover {
   opacity: 0.8;
+
   /* Reduces the opacity of the button to 80% */
   color: #ffffff;
   text-decoration: none;
@@ -131,6 +142,7 @@ a:active {
   border: 2px solid rgba(196, 22, 28, 1.0);
   padding: 20px 20px;
   transition: 0.4s opacity, 0.5s background-color
+
     /* background color transition */
 }
 
@@ -156,6 +168,7 @@ a:active {
   text-transform: uppercase;
   border: 2px solid rgba(196, 22, 28, 1.0);
   transition: 0.4s opacity, 0.5s background-color;
+
     /* background color transition */
     text-decoration: none;
 }
@@ -194,7 +207,7 @@ nav>ul {
 }
 
 nav>ul>li {
-  /*  display: inline-block;*/
+  /*  display: inline-block; */
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
@@ -273,6 +286,7 @@ main {
 
 #hero h1 {
   text-align: center;
+
   /* Centers text */
 }
 
@@ -306,8 +320,10 @@ main {
 
 #social {
   font-size: 30px;
+
   /* font size effects icon size */
   padding: 20px 20px;
+
   /* padding above above and under icons */
   text-align: center;
 }
@@ -356,7 +372,9 @@ a>i {
 }
 
 /* Ellicott City Unity Illustration Animation */
+
 /* sets svg width to 100% so that it is responsive */
+
 /*
 .ec-unity-illustration {
 width: 100%;
@@ -396,6 +414,7 @@ height: auto;
 }
 
 /* Berlin Illustration Animation */
+
 /* sets svg width to 100% so that it is responsive */
 .berlin-illustration {
   width: 100%;
@@ -524,7 +543,7 @@ Medium devices (640px and larger)
     padding-top: 121px;
   }
 
-  /* centers about photo*/
+  /* centers about photo */
   .center {
     display: block;
     margin-left: auto;
@@ -584,6 +603,7 @@ nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
 
 }
 */
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -614,7 +634,7 @@ Large devices (1024px or larger)
   }
 }
 
-/* Nav CSS animation*/
+/* Nav CSS animation */
 nav.container ul>li>a {
   color: #000000;
   text-decoration: none;
@@ -686,7 +706,7 @@ X-large devices (1440px or larger)
   }
 }
 
-/* Nav CSS animation*/
+/* Nav CSS animation */
 nav.container ul>li>a {
   color: #000000;
   text-decoration: none;
@@ -762,7 +782,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Nav CSS animation*/
+/* Nav CSS animation */
 nav.container ul>li>a {
   color: #000000;
   text-decoration: none;
@@ -800,7 +820,6 @@ nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
   width: 100%;
 }
 
-
 /* ==============================
 fixes hamburger menu line animation
 ================================= */
@@ -809,9 +828,9 @@ fixes hamburger menu line animation
   nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
     background: #f2f2f2;
   }
+}
 
-
-  /* colors used
+/* colors used
 primary color (red):#c4161c web color#cc0000
 rgba(196,22,28,0.0)
 
