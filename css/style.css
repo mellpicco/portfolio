@@ -44,7 +44,10 @@ img {
   width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -580,7 +583,8 @@ nav.container ul>li>a {
   cursor: pointer;
 }
 
-nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+nav.borderXwidth ul>li>a:before,
+nav.borderXwidth ul>li>a:after {
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -730,7 +734,8 @@ nav.container ul>li>a {
   cursor: pointer;
 }
 
-nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+nav.borderXwidth ul>li>a:before,
+nav.borderXwidth ul>li>a:after {
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -826,7 +831,8 @@ nav.borderXwidth ul>li>a:after {
   bottom: 0px;
 }
 
-nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
+nav.borderXwidth ul>li>a:hover:before,
+nav.borderXwidth ul>li>a:hover:after {
   opacity: 1;
   width: 100%;
 }
@@ -835,8 +841,8 @@ nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
 fixes hamburger menu line animation
 ================================= */
 @media only screen and (max-width: 640px) {
-
-  nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+  nav.borderXwidth ul>li>a:before,
+  nav.borderXwidth ul>li>a:after {
     background: #f2f2f2;
   }
 }
