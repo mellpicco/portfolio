@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 
@@ -79,7 +79,7 @@ a {
 /* visited link
 a:visited {
 
-  color: #333333;
+  color: #333;
 }
 */
 a:hover,
@@ -101,7 +101,7 @@ a:active {
 
   /* since the <a> tag is inline by default, we need to change this to inline-block*/
   background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  color: #fff;
 
   /* needed to override the default link color */
   font-weight: 700;
@@ -121,7 +121,7 @@ a:active {
   opacity: 0.8;
 
   /* Reduces the opacity of the button to 80% */
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ a:active {
 .button:active {
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -148,13 +148,13 @@ a:active {
 
 .button.contact:hover {
   background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  color: #fff;
 }
 
 /* on mobile: hover action is visible when selecting the button */
 .button.contact:active {
   background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  color: #fff;
 }
 
 #emailbutton {
@@ -175,14 +175,14 @@ a:active {
 
 .button.resume:hover {
   background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
 /* on mobile: hover action is visible when selecting the button */
 .button.resume:active {
   background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -210,21 +210,21 @@ nav>ul>li {
   /*  display: inline-block; */
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
 nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
 nav>ul>li>a:visted {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
 nav>ul>li>a:hover {
@@ -306,7 +306,7 @@ main {
 }
 
 #contact {
-  background-color: #000000;
+  background-color: #000;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -335,7 +335,7 @@ a>i {
 }
 
 #copyright {
-  color: #333333
+  color: #333
 }
 
 /* About Page Styles */
@@ -384,7 +384,7 @@ height: auto;
 */
 @keyframes color-change2 {
   from {
-    fill: #ffffff;
+    fill: #fff;
   }
 
   to {
@@ -558,7 +558,7 @@ Medium devices (640px and larger)
 
 /* Nav CSS animation*/
 nav.container ul>li>a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
@@ -636,7 +636,7 @@ Large devices (1024px or larger)
 
 /* Nav CSS animation */
 nav.container ul>li>a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
@@ -708,7 +708,7 @@ X-large devices (1440px or larger)
 
 /* Nav CSS animation */
 nav.container ul>li>a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
@@ -784,7 +784,7 @@ html {
 
 /* Nav CSS animation */
 nav.container ul>li>a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
@@ -834,6 +834,6 @@ fixes hamburger menu line animation
 primary color (red):#c4161c web color#cc0000
 rgba(196,22,28,0.0)
 
-secondary color (dark gray): #333333
+secondary color (dark gray): #333
 light gray:#f2f2f2
  */
