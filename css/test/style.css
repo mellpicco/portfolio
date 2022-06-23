@@ -1,4 +1,5 @@
-/* setting the default width of an element to include the padding and the border via the box-sizing property and border-box value*/
+
+/* setting the default width of an element to include the padding and the border via the box-sizing property and border-box value */
 * {
   box-sizing: border-box;
 }
@@ -11,17 +12,21 @@
 /* adds rows to div to make 2 column section */
 .row {
   margin: 25px 0;
+
   /* 25px top and bottom, 0 left and right */
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+
   /* Sets the font size to 16px */
   font-weight: 300;
+
   /* Sets the font weight to 300 */
   line-height: 1.6;
+
   /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
@@ -30,17 +35,20 @@ header {
   width: 100%;
   background-color: #f2f2f2;
   padding: 10px 0 4px;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
-  -moz-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
-  box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
-  position: fixed
+  -webkit-box-shadow: 0 2px 4px 0 rgba(50, 50, 50, 0.42);
+  -moz-box-shadow: 0 2px 4px 0 rgba(50, 50, 50, 0.42);
+  box-shadow: 0 2px 4px 0 rgba(50, 50, 50, 0.42);
+  position: fixed;
 }
 
 img {
   width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -66,110 +74,130 @@ h4 {
 
 /* Link Styling */
 a {
-  color: rgba(196, 22, 28, 1.0);
+  color: rgba(196, 22, 28, 1);
   text-decoration: none;
+
   /* No underlining */
 }
 
 /* visited link
 a:visited {
 
-  color: #333333;
+  color: #333;
 }
 */
 a:hover,
 a:focus {
   color: rgba(196, 22, 28, 0.5);
   text-decoration: underline;
+
   /* underlines on hover for accessibility */
+}
+
+.active {
+  color: rgba(196, 22, 28, 1) !important;
 }
 
 a:active {
   /* selected link */
-  color: rgba(196, 22, 28, 1.0);
+  color: rgba(196, 22, 28, 1);
 }
 
 /* "View Case Study" Buttons Styling */
 .button {
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block*/
-  background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+
+  /* since the <a> tag is inline by default, we need to change this to inline-block */
+  background-color: rgba(196, 22, 28, 1);
+  color: #fff;
+
   /* needed to override the default link color */
   font-weight: 700;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
+
   /* width of the border, type, color */
   transition-duration: 0.2s;
+
   /* animation-transition opacity */
   transition-property: opacity;
 }
 
-
 .button:hover {
   opacity: 0.8;
+
   /* Reduces the opacity of the button to 80% */
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
 /* on mobile: hover action is visible when selecting the button */
 .button:active {
   opacity: 0.8;
+
   /* Reduces the opacity of the button to 80% */
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
+}
+
+a[href^="tel:"] {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: underline;
 }
 
 /* "E-mail me" Buttons Styling */
 .button.contact {
   background-color: transparent;
-  color: rgba(196, 22, 28, 1.0);
+  color: rgba(196, 22, 28, 1);
   text-transform: uppercase;
   font-size: 18px;
-  border: 2px solid rgba(196, 22, 28, 1.0);
-  padding: 20px 20px;
+  border: 2px solid rgba(196, 22, 28, 1);
+  padding: 20px;
   transition: 0.4s opacity, 0.5s background-color
-    /* background color transition */
+
+  /* background color transition */
 }
 
 .button.contact:hover {
-  background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  background-color: rgba(196, 22, 28, 1);
+  color: #fff;
 }
 
 /* on mobile: hover action is visible when selecting the button */
 .button.contact:active {
-  background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  background-color: rgba(196, 22, 28, 1);
+  color: #fff;
 }
 
 #emailbutton {
-  padding: 20px 20px;
+  padding: 20px;
 }
 
 /* "Resume" Buttons Styling */
 .button.resume {
   background-color: transparent;
-  color: rgba(196, 22, 28, 1.0);
+  color: rgba(196, 22, 28, 1);
   text-transform: uppercase;
-  border: 2px solid rgba(196, 22, 28, 1.0);
+  border: 2px solid rgba(196, 22, 28, 1);
   transition: 0.4s opacity, 0.5s background-color;
-    /* background color transition */
-    text-decoration: none;
+
+  /* background color transition */
+  text-decoration: none;
 }
 
 .button.resume:hover {
-  background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  background-color: rgba(196, 22, 28, 1);
+  color: #fff;
   text-decoration: none;
 }
 
 /* on mobile: hover action is visible when selecting the button */
 .button.resume:active {
-  background-color: rgba(196, 22, 28, 1.0);
-  color: #ffffff;
+  background-color: rgba(196, 22, 28, 1);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -187,41 +215,40 @@ nav {
   width: 100%;
 }
 */
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav>ul>li {
-  /*  display: inline-block;*/
-  text-transform: uppercase;
+nav > ul > li {
+  text-transform: uppercase; /* display: inline-block; */
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
-nav>ul>li>a:visted {
+nav > ul > li > a: visted {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #c4161c;
 }
 
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -236,7 +263,8 @@ nav>ul>li>a:active {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -273,6 +301,7 @@ main {
 
 #hero h1 {
   text-align: center;
+
   /* Centers text */
 }
 
@@ -292,7 +321,7 @@ main {
 }
 
 #contact {
-  background-color: #000000;
+  background-color: #000;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -306,20 +335,22 @@ main {
 
 #social {
   font-size: 30px;
+
   /* font size effects icon size */
-  padding: 20px 20px;
+  padding: 20px;
+
   /* padding above above and under icons */
   text-align: center;
 }
 
 /* padding inbetween icons */
-a>i {
+a > i {
   padding-right: 10px;
   padding-left: 10px;
 }
 
 #copyright {
-  color: #333333
+  color: #fff;
 }
 
 /* About Page Styles */
@@ -356,7 +387,9 @@ a>i {
 }
 
 /* Ellicott City Unity Illustration Animation */
+
 /* sets svg width to 100% so that it is responsive */
+
 /*
 .ec-unity-illustration {
 width: 100%;
@@ -366,7 +399,7 @@ height: auto;
 */
 @keyframes color-change2 {
   from {
-    fill: #ffffff;
+    fill: #fff;
   }
 
   to {
@@ -396,6 +429,7 @@ height: auto;
 }
 
 /* Berlin Illustration Animation */
+
 /* sets svg width to 100% so that it is responsive */
 .berlin-illustration {
   width: 100%;
@@ -430,6 +464,7 @@ height: auto;
     transform: translate(200px, 50px);
   }
 }
+
 
 .cloud-front {
   animation-duration: 30s;
@@ -477,11 +512,11 @@ Medium devices (640px and larger)
     margin-top: 15px;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
   }
 
@@ -505,7 +540,7 @@ Medium devices (640px and larger)
 
   [class*="col-"] {
     float: left;
-    padding: 20px 20px;
+    padding: 20px;
   }
 
   .row::after {
@@ -524,7 +559,7 @@ Medium devices (640px and larger)
     padding-top: 121px;
   }
 
-  /* centers about photo*/
+  /* centers about photo */
   .center {
     display: block;
     margin-left: auto;
@@ -537,40 +572,42 @@ Medium devices (640px and larger)
   }
 }
 
-/* Nav CSS animation*/
-nav.container ul>li>a {
-  color: #000000;
+/* Nav CSS animation */
+nav.container ul > li > a {
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
-  margin: 0px 10px;
-  padding: 10px 10px;
+  margin: 0 10px;
+  padding: 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
 
-nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+nav.borderXwidth ul > li > a: before,
+nav.borderXwidth ul > li > a: after {
   position: absolute;
   opacity: 0;
   width: 0%;
   height: 2px;
   content: '';
-  background: rgba(196, 22, 28, 1.0);
+  background: rgba(196, 22, 28, 1);
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul>li>a:before {
-  left: 0px;
-  top: 0px;
+nav.borderXwidth ul > li > a: before {
+  left: 0;
+  top: 0;
 }
 
-nav.borderXwidth ul>li>a:after {
-  right: 0px;
-  bottom: 0px;
+nav.borderXwidth ul > li > a: after {
+  right: 0;
+  bottom: 0;
 }
 
-nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
+nav.borderXwidth ul > li > a:hover: before,
+nav.borderXwidth ul > li > a:hover: after {
   opacity: 1;
   width: 100%;
 }
@@ -584,6 +621,7 @@ nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
 
 }
 */
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -614,40 +652,42 @@ Large devices (1024px or larger)
   }
 }
 
-/* Nav CSS animation*/
-nav.container ul>li>a {
-  color: #000000;
+/* Nav CSS animation */
+nav.container ul > li > a {
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
-  margin: 0px 10px;
-  padding: 10px 10px;
+  margin: 0 10px;
+  padding: 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
 
-nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+nav.borderXwidth ul > li > a: before,
+nav.borderXwidth ul > li > a: after {
   position: absolute;
   opacity: 0;
   width: 0%;
   height: 2px;
   content: '';
-  background: rgba(196, 22, 28, 1.0);
+  background: rgba(196, 22, 28, 1);
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul>li>a:before {
-  left: 0px;
-  top: 0px;
+nav.borderXwidth ul > li > a: before {
+  left: 0;
+  top: 0;
 }
 
-nav.borderXwidth ul>li>a:after {
-  right: 0px;
-  bottom: 0px;
+nav.borderXwidth ul > li > a: after {
+  right: 0;
+  bottom: 0;
 }
 
-nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
+nav.borderXwidth ul > li > a:hover: before,
+nav.borderXwidth ul > li > a:hover: after {
   opacity: 1;
   width: 100%;
 }
@@ -686,40 +726,42 @@ X-large devices (1440px or larger)
   }
 }
 
-/* Nav CSS animation*/
-nav.container ul>li>a {
-  color: #000000;
+/* Nav CSS animation */
+nav.container ul > li > a {
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
-  margin: 0px 10px;
-  padding: 10px 10px;
+  margin: 0 10px;
+  padding: 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
 
-nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+nav.borderXwidth ul > li > a: before,
+nav.borderXwidth ul > li > a: after {
   position: absolute;
   opacity: 0;
   width: 0%;
   height: 2px;
   content: '';
-  background: rgba(196, 22, 28, 1.0);
+  background: rgba(196, 22, 28, 1);
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul>li>a:before {
-  left: 0px;
-  top: 0px;
+nav.borderXwidth ul > li> a: before {
+  left: 0;
+  top: 0;
 }
 
-nav.borderXwidth ul>li>a:after {
-  right: 0px;
-  bottom: 0px;
+nav.borderXwidth ul > li > a: after {
+  right: 0;
+  bottom: 0;
 }
 
-nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
+nav.borderXwidth ul > li> a:hover: before,
+nav.borderXwidth ul > li > a:hover: after {
   opacity: 1;
   width: 100%;
 }
@@ -762,59 +804,60 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Nav CSS animation*/
-nav.container ul>li>a {
-  color: #000000;
+/* Nav CSS animation */
+nav.container ul > li > a {
+  color: #000;
   text-decoration: none;
   font: 20px Roboto;
   text-transform: uppercase;
-  margin: 0px 10px;
-  padding: 10px 10px;
+  margin: 0 10px;
+  padding: 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
 
-nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+nav.borderXwidth ul > li > a: before,
+nav.borderXwidth ul > li > a: after {
   position: absolute;
   opacity: 0;
   width: 0%;
   height: 2px;
   content: '';
-  background: rgba(196, 22, 28, 1.0);
+  background: rgba(196, 22, 28, 1);
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul>li>a:before {
-  left: 0px;
-  top: 0px;
+nav.borderXwidth ul > li > a: before {
+  left: 0;
+  top: 0;
 }
 
-nav.borderXwidth ul>li>a:after {
-  right: 0px;
-  bottom: 0px;
+nav.borderXwidth ul > li > a: after {
+  right: 0;
+  bottom: 0;
 }
 
-nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
+nav.borderXwidth ul > li > a:hover: before,
+nav.borderXwidth ul > li > a:hover: after {
   opacity: 1;
   width: 100%;
 }
-
 
 /* ==============================
 fixes hamburger menu line animation
 ================================= */
 @media only screen and (max-width: 640px) {
-
-  nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
+  nav.borderXwidth ul > li > a: before,
+  nav.borderXwidth ul > li > a: after {
     background: #f2f2f2;
   }
+}
 
-
-  /* colors used
-primary color (red):#c4161c web color#cc0000
+/* colors used
+primary color (red):#c4161c
 rgba(196,22,28,0.0)
 
-secondary color (dark gray): #333333
+secondary color (dark gray): #333
 light gray:#f2f2f2
  */
