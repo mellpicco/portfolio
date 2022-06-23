@@ -106,7 +106,7 @@ a:active {
 .button {
   display: inline-block;
 
-  /* since the <a >  tag is inline by default, we need to change this to inline-block */
+  /* since the <a> tag is inline by default, we need to change this to inline-block */
   background-color: rgba(196, 22, 28, 1.0);
   color: #fff;
 
@@ -214,41 +214,41 @@ nav {
   width: 100%;
 }
 */
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   /*  display: inline-block; */
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
 }
 
-nav > ul > li > a:visted {
+nav>ul>li>a:visted {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #c4161c;
 }
 
-nav > ul > li > a:active {
+nav>ul>li>a:active {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -263,8 +263,7 @@ nav > ul > li > a:active {
   display: none;
 }
 
-.navtoggle,
-.navtoggle.responsive {
+.navtoggle, .navtoggle.responsive {
   position: relative;
 }
 
@@ -344,7 +343,7 @@ main {
 }
 
 /* padding inbetween icons */
-a > i {
+a>i {
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -511,11 +510,11 @@ Medium devices (640px and larger)
     margin-top: 15px;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
   }
 
@@ -572,7 +571,7 @@ Medium devices (640px and larger)
 }
 
 /* Nav CSS animation */
-nav.container ul > li > a {
+nav.container ul>li>a {
   color: #000;
   text-decoration: none;
   font: 20px Roboto;
@@ -584,8 +583,8 @@ nav.container ul > li > a {
   cursor: pointer;
 }
 
-nav.borderXwidth ul > li > a::before,
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:before,
+nav.borderXwidth ul>li>a:after {
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -595,18 +594,17 @@ nav.borderXwidth ul > li > a::after {
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul > li > a::before {
+nav.borderXwidth ul>li>a:before {
   left: 0px;
   top: 0px;
 }
 
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:after {
   right: 0px;
   bottom: 0px;
 }
 
-nav.borderXwidth ul > li > a:hover::before,
-nav.borderXwidth ul > li > a:hover::after {
+nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
   opacity: 1;
   width: 100%;
 }
@@ -652,7 +650,7 @@ Large devices (1024px or larger)
 }
 
 /* Nav CSS animation */
-nav.container ul > li > a {
+nav.container ul>li>a {
   color: #000;
   text-decoration: none;
   font: 20px Roboto;
@@ -664,8 +662,7 @@ nav.container ul > li > a {
   cursor: pointer;
 }
 
-nav.borderXwidth ul > li > a::before,
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -675,18 +672,17 @@ nav.borderXwidth ul > li > a::after {
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul > li > a::before {
+nav.borderXwidth ul>li>a:before {
   left: 0px;
   top: 0px;
 }
 
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:after {
   right: 0px;
   bottom: 0px;
 }
 
-nav.borderXwidth ul > li > a:hover::before,
-nav.borderXwidth ul > li > a:hover::after {
+nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
   opacity: 1;
   width: 100%;
 }
@@ -726,7 +722,7 @@ X-large devices (1440px or larger)
 }
 
 /* Nav CSS animation */
-nav.container ul > li > a {
+nav.container ul>li>a {
   color: #000;
   text-decoration: none;
   font: 20px Roboto;
@@ -738,8 +734,8 @@ nav.container ul > li > a {
   cursor: pointer;
 }
 
-nav.borderXwidth ul > li > a::before,
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:before,
+nav.borderXwidth ul>li>a:after {
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -749,18 +745,17 @@ nav.borderXwidth ul > li > a::after {
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul > li > a::before {
+nav.borderXwidth ul>li>a:before {
   left: 0px;
   top: 0px;
 }
 
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:after {
   right: 0px;
   bottom: 0px;
 }
 
-nav.borderXwidth ul > li > a:hover::before,
-nav.borderXwidth ul > li > a:hover::after {
+nav.borderXwidth ul>li>a:hover:before, nav.borderXwidth ul>li>a:hover:after {
   opacity: 1;
   width: 100%;
 }
@@ -804,7 +799,7 @@ html {
 }
 
 /* Nav CSS animation */
-nav.container ul > li > a {
+nav.container ul>li>a {
   color: #000;
   text-decoration: none;
   font: 20px Roboto;
@@ -816,8 +811,7 @@ nav.container ul > li > a {
   cursor: pointer;
 }
 
-nav.borderXwidth ul > li > a::before,
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:before, nav.borderXwidth ul>li>a:after {
   position: absolute;
   opacity: 0;
   width: 0%;
@@ -827,18 +821,18 @@ nav.borderXwidth ul > li > a::after {
   transition: all 0.3s;
 }
 
-nav.borderXwidth ul > li > a::before {
+nav.borderXwidth ul>li>a:before {
   left: 0px;
   top: 0px;
 }
 
-nav.borderXwidth ul > li > a::after {
+nav.borderXwidth ul>li>a:after {
   right: 0px;
   bottom: 0px;
 }
 
-nav.borderXwidth ul > li > a:hover::before,
-nav.borderXwidth ul > li > a:hover::after {
+nav.borderXwidth ul>li>a:hover:before,
+nav.borderXwidth ul>li>a:hover:after {
   opacity: 1;
   width: 100%;
 }
@@ -847,8 +841,8 @@ nav.borderXwidth ul > li > a:hover::after {
 fixes hamburger menu line animation
 ================================= */
 @media only screen and (max-width: 640px) {
-  nav.borderXwidth ul > li > a::before,
-  nav.borderXwidth ul > li > a::after {
+  nav.borderXwidth ul>li>a:before,
+  nav.borderXwidth ul>li>a:after {
     background: #f2f2f2;
   }
 }
