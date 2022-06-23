@@ -90,6 +90,10 @@ a:focus {
   /* underlines on hover for accessibility */
 }
 
+.active {
+  color: rgba(196, 22, 28, 1) !important;
+}
+
 a:active {
   /* selected link */
   color: rgba(196, 22, 28, 1.0);
@@ -131,6 +135,13 @@ a:active {
   /* Reduces the opacity of the button to 80% */
   color: #fff;
   text-decoration: none;
+}
+
+a[href^="tel:"] {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: underline;
 }
 
 /* "E-mail me" Buttons Styling */
