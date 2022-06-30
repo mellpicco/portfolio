@@ -38,6 +38,7 @@ header {
   -moz-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
   box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.42);
   position: fixed;
+  z-index: 999999;
 }
 
 img {
@@ -308,6 +309,10 @@ nav > ul > li > a:active {
   border-top: 1px solid rgba(70, 70, 70, 0.5);
 }
 
+nav{
+  z-index: 999999 !important;
+}
+
 /* adds padding (same height as header) to allow for position fixed */
 main {
   padding-top: 111px;
@@ -507,6 +512,14 @@ height: auto;
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .active {
+    color: black !important;
+  }
 }
 
 /* ==============================
@@ -874,6 +887,12 @@ fixes hamburger menu line animation
     background: #f2f2f2;
   }
 }
+
+/*
+nav {
+  z-index: 999999 !important;
+}
+*/
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
