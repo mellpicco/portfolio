@@ -494,6 +494,12 @@ height: auto;
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+@media only screen and (max-width: 640px) {
+  .active {
+    color: black !important;
+  }
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
