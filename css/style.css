@@ -184,6 +184,7 @@ a[href^="tel:"] {
   border: 2px solid rgba(196, 22, 28, 1.0);
   transition: 0.4s opacity, 0.5s background-color;
 
+
   /* background color transition */
   text-decoration: none;
 }
@@ -204,6 +205,8 @@ a[href^="tel:"] {
 .button.resume:visited {
   text-decoration: none;
 }
+
+
 
  /* floating back to top button */
 #myBtn {
@@ -520,6 +523,7 @@ height: auto;
   .active {
     color: black !important;
   }
+
 }
 
 /* ==============================
@@ -645,6 +649,8 @@ nav.borderXwidth ul > li > a:hover::after {
   opacity: 1;
   width: 100%;
 }
+
+
 
 /*
 @media only screen and (max-width: 450px) {
@@ -887,6 +893,7 @@ fixes hamburger menu line animation
     background: #f2f2f2;
   }
 }
+
 
 /*
 nav {
