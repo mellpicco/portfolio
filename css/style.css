@@ -312,9 +312,11 @@ nav > ul > li > a:active {
   border-top: 1px solid rgba(70, 70, 70, 0.5);
 }
 
+/*
 nav{
   z-index: 999999 !important;
 }
+*/
 
 /* adds padding (same height as header) to allow for position fixed */
 main {
