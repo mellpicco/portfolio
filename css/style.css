@@ -184,7 +184,6 @@ a[href^="tel:"] {
   border: 2px solid rgba(196, 22, 28, 1.0);
   transition: 0.4s opacity, 0.5s background-color;
 
-
   /* background color transition */
   text-decoration: none;
 }
@@ -205,30 +204,6 @@ a[href^="tel:"] {
 .button.resume:visited {
   text-decoration: none;
 }
-
-
-
- /* floating back to top button */
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: rgba(75,75,75,0.5); /* rgba(196,22,28,0.5)  #f2f2f2;Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  /*border-radius: 10px;  Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #c4161c; /* Add a dark-grey background on hover */
-}
-
 
 .logo {
   max-width: 100px;
@@ -313,10 +288,10 @@ nav > ul > li > a:active {
 }
 
 /*
-nav{
+nav {
   z-index: 999999 !important;
 }
-*/
+/*
 
 /* adds padding (same height as header) to allow for position fixed */
 main {
@@ -519,15 +494,6 @@ height: auto;
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-
-
-@media only screen and (max-width: 640px) {
-  .active {
-    color: black !important;
-  }
-
-}
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -651,8 +617,6 @@ nav.borderXwidth ul > li > a:hover::after {
   opacity: 1;
   width: 100%;
 }
-
-
 
 /*
 @media only screen and (max-width: 450px) {
@@ -895,13 +859,6 @@ fixes hamburger menu line animation
     background: #f2f2f2;
   }
 }
-
-
-/*
-nav {
-  z-index: 999999 !important;
-}
-*/
 
 /* colors used
 primary color (red):#c4161c web color#cc0000
